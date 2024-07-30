@@ -1,0 +1,50 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  flex-direction: column;
+  width: 100%;	
+}
+
+.container form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+}
+
+.container form div{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.container form div label{
+  margin-bottom: 5px;
+}
+
+.container form div input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container form button{
+  padding: 10px;  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container a{
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
+}
